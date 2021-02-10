@@ -1,0 +1,148 @@
+@import './Sass/responsive.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  main {
+    margin:5em 8em;
+  }
+  h3 {
+    color:$primary;
+    font-weight: bold;
+  }
+}
+.navbar {
+  height:5em;
+  background-color:$primary;
+  align-items: center;
+  display:flex;
+  justify-content:space-around;
+  .navigation {
+    text-align: center ;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline;
+    margin-right: 1em ;
+  }
+  .toggle-btn {
+  }
+}
+.body-light {
+  .navbar a {
+  color:white;
+  }
+    a { 
+      text-decoration: none;
+      color:$darkblue;
+      }
+  min-height: 100vh;
+  color:black;
+  background-color:white;
+}
+
+.body-dark {
+  .navbar {
+    background-color:$light;
+    border-bottom: 0.5px solid $white;
+  }
+    a { 
+      text-decoration: none;
+      color:$white;
+      }
+    min-height: 100vh; 
+    color:white;
+    background-color:$dark;
+    a, a:visited {
+      text-decoration: none;
+      position: relative;
+      
+      &:after {
+        content: '';
+        height: 3px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        background: white;
+        transition: 0.2s;
+      }
+    
+      &:hover:after {
+        width: 100%;
+      }
+      
+      &.block {
+        display: block;
+        padding: 0.5em;
+        
+        &:hover {
+          background: #eee;
+        }
+      }
+    }
+}
+
+.studyCases-container {
+  display:flex;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  justify-content:space-between;
+  a{
+    color:$primary;
+    font-weight: 600;
+  }
+}
+
+.caseDetail-container {
+  h2 {
+    color:$primary;
+  }
+}
+
+//links animation
+a, a:visited {
+	text-decoration: none;
+	position: relative;
+	
+	&:after {
+		content: '';
+		height: 3px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		background: $dark;
+		transition: 0.2s;
+	}
+
+	&:hover:after {
+		width: 100%;
+	}
+	
+	&.block {
+		display: block;
+		padding: 0.5em;
+		
+		&:hover {
+			background: #eee;
+		}
+  }
+}
+
+// RESPONSIVE //
+@media #{$small} {
+
+}
+
+@media #{$medium} {
+}
+
+@media #{$large} {
+
+}
