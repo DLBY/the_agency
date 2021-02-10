@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
+  <div data-aos="fade-up">
     <h3>Confiez vos rêves à des experts du Web</h3>
     <p>
       Grâce à notre savoir-faire, notre expérience et notre écoute, nous

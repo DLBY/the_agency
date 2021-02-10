@@ -8,7 +8,7 @@ import SolanImg from '../../asset/solaneimg.jpeg';
 import AgencyImg from '../../asset/agency.jpeg';
 
 const Works = () => (
-  <div>
+  <div data-aos="fade-up">
     <h3>Au fil des années, nous avons pu accompagner les meilleurs.</h3>
     <p>
       Découvrez pas à pas comment nous avons été présent pour lancer vos marques

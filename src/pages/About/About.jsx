@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div>
+  <div data-aos="fade-up">
     <h3>
       Websitic est une Agence de communication digitale à paris ayant pour
       mission de vous accompagner sur vos projets digitaux.

@@ -1,15 +1,16 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../tools/Button';
 
 const Navbar = () => (
   <nav className="navbar">
-    <Link to="/" className="logo">
+    <Link to="/the_agency" className="logo">
       The Agency
     </Link>
+
     <ul className="navigation">
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/the_agency">Home</Link>
       </li>
       <li>
         <Link to="/works">Works</Link>
