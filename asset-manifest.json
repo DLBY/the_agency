@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/the_agency/static/css/main.d6cbd068.chunk.css",
+    "main.js": "/the_agency/static/js/main.df521048.chunk.js",
+    "main.js.map": "/the_agency/static/js/main.df521048.chunk.js.map",
+    "runtime-main.js": "/the_agency/static/js/runtime-main.595662d6.js",
+    "runtime-main.js.map": "/the_agency/static/js/runtime-main.595662d6.js.map",
+    "static/js/2.6aa39368.chunk.js": "/the_agency/static/js/2.6aa39368.chunk.js",
+    "static/js/2.6aa39368.chunk.js.map": "/the_agency/static/js/2.6aa39368.chunk.js.map",
+    "index.html": "/the_agency/index.html",
+    "static/css/main.d6cbd068.chunk.css.map": "/the_agency/static/css/main.d6cbd068.chunk.css.map",
+    "static/js/2.6aa39368.chunk.js.LICENSE.txt": "/the_agency/static/js/2.6aa39368.chunk.js.LICENSE.txt",
+    "static/media/agency.a1a6edae.jpeg": "/the_agency/static/media/agency.a1a6edae.jpeg",
+    "static/media/platonimg.0ae49089.jpeg": "/the_agency/static/media/platonimg.0ae49089.jpeg",
+    "static/media/sedalimg.b424cfad.jpeg": "/the_agency/static/media/sedalimg.b424cfad.jpeg",
+    "static/media/solaneimg.1f4ab5a7.jpeg": "/the_agency/static/media/solaneimg.1f4ab5a7.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.595662d6.js",
+    "static/js/2.6aa39368.chunk.js",
+    "static/css/main.d6cbd068.chunk.css",
+    "static/js/main.df521048.chunk.js"
+  ]
+}
