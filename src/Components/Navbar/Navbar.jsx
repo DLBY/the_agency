@@ -4,6 +4,9 @@ import Button from '../../tools/Button';
 
 const Navbar = () => (
   <nav className="navbar">
+    <Link to="/" className="logo">
+      The Agency
+    </Link>
     <ul className="navigation">
       <li>
         <Link to="/">Home</Link>

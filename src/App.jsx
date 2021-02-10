@@ -6,9 +6,11 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Works from './pages/Works/Works';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   const [isDark, setIsDark] = useState(false);
+
   const modeHandleChange = (dark) => {
     const newMode = !dark;
     setIsDark(newMode);
@@ -34,6 +36,7 @@ const App = () => {
               </Route>
             </Switch>
           </main>
+          <Footer />
         </div>
       </ModeContext.Provider>
     </Router>
