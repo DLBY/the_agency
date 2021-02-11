@@ -12,13 +12,14 @@ const Home = () => (
         répondre à tous vos besoins et d&apos;élaborer une véritable stratégie
         digitale.
       </p>
+      <button type="button" className="cat">
+        Découvrez-nous !
+      </button>
     </div>
+
     <div className="homeImg">
       <img src={AgencyImg} alt="agencyImg" />
     </div>
-    <button type="button" className="cat">
-      Découvrez-nous !
-    </button>
   </div>
 );
 
