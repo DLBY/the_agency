@@ -4,7 +4,7 @@ import ModeContext from '../Context/modeContext';
 
 const Button = () => {
   const { isDark, modeHandleChange } = useContext(ModeContext);
-  console.log(isDark);
+  // console.log(isDark);
   return (
     <DarkModeToggle
       onChange={() => modeHandleChange(isDark)}

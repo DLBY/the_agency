@@ -5,7 +5,6 @@ import clients from '../../data/clients';
 import PlatonImg from '../../asset/platonimg.jpeg';
 import SedalImg from '../../asset/sedalimg.jpeg';
 import SolanImg from '../../asset/solaneimg.jpeg';
-import AgencyImg from '../../asset/agency.jpeg';
 
 const Works = () => (
   <div data-aos="fade-up">

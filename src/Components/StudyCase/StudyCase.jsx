@@ -18,9 +18,9 @@ const StudyCase = () => {
   const { name, title, studyCase } = currentClient;
   return (
     <div className="caseDetail-container">
-      <h2>{name}</h2>
-      <h2 className="subtitle">{title}</h2>
-      <p>{studyCase}</p>
+      <h2 className="caseDetail-content">{name}</h2>
+      <h2 className="caseDetail-content">{title}</h2>
+      <p className="caseDetail-content">{studyCase}</p>
     </div>
   );
 };

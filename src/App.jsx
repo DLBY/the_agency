@@ -17,21 +17,17 @@ const App = () => {
 
   const modeHandleChange = (dark) => {
     const newMode = !dark;
-    localStorage.setItem(
-      'dark',
-      JSON.stringify('dark', JSON.stringify(newMode))
-    );
+    localStorage.setItem('dark', JSON.stringify({ darkMode: newMode }));
     setIsDark(newMode);
   };
 
   useEffect(() => {
     const localStorageDark = JSON.parse(localStorage.getItem('dark'));
-    if (localStorageDark) {
-      setIsDark(localStorageDark);
-    }
     const userMedia = matchMedia('(prefers-color-scheme: dark)');
-    if (userMedia) {
+    if (!localStorageDark && userMedia) {
       setIsDark(userMedia.matches);
+    } else {
+      setIsDark(localStorageDark.darkMode);
     }
   }, []);
 
