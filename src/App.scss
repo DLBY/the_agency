@@ -11,6 +11,8 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
   p{
+    color:$gray;
+    font-weight: 500;
     line-height: 2em;
   }
 }
@@ -63,6 +65,9 @@ footer {
   background-color:white;
   height:4em;
   width: 100%;
+  p {
+    color:$lightgray;
+  }
 }
 
 .body-light {
@@ -81,6 +86,9 @@ footer {
 }
 
 .body-dark {
+  p {
+    color:white;
+  }
   transition-duration: 500ms;
   -webkit-animation: open 0.5s ease-in;
           animation: open 0.5s ease-in;
@@ -152,6 +160,22 @@ footer {
         }
     }
 }
+.studyCases-container {
+  display:flex;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  justify-content:space-around;
+  a{
+    color:$primary;
+    font-weight: 600;
+  }
+}
+
+.caseDetail-container {
+  h2 {
+    color:$primary;
+  }
+}
 
 //links animation
 a, a:visited {
@@ -190,13 +214,8 @@ a, a:visited {
   grid-template-rows: repeat(auto, 200px);
   max-width: 100%;
   img {
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
     max-width: 100%;
     max-height: 100%;
-    &:hover {
-      margin-left: -30px;
-    }
   }
 }
 
@@ -234,6 +253,10 @@ a, a:visited {
     margin-right: auto;
     img {
       max-width: 100%;
+      transition: all .2s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -242,6 +265,17 @@ a, a:visited {
 }
 
 @media #{$medium} {
+  .img-container {
+    img {
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      max-width: 100%;
+      max-height: 100%;
+      &:hover {
+        margin-left: -30px;
+      }
+    }
+  }
   .cat {
     margin-bottom: 0;
   }
